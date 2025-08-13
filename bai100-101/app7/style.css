@@ -1,0 +1,16 @@
+/* khi placeholder của thẻ input đang hiển thị */
+input:placeholder-shown {
+  background-color: cyan;
+}
+
+input:not(:placeholder-shown) {
+  background-color: yellow;
+}
+
+.login-form:focus-within {
+  background-color: blue;
+}
+
+.login-form:focus-within button {
+  background-color: red;
+}

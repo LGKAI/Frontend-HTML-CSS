@@ -1,0 +1,19 @@
+.box {
+  height: 300px;
+  background-image: url(./bg/messi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.text_local {
+  color: white;
+  margin-top: 40;
+  height: 200px;
+  width: 70%;
+  overflow: auto;
+  background-image: url(./bg/messi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+}

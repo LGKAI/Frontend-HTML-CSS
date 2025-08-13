@@ -1,0 +1,27 @@
+/* p[href] {
+    color: red;
+}
+
+[target = "_blank"] {
+    color: pink;
+} */
+
+/* [title ~= "tuhoc.cc"] {
+    color: red;
+} */
+
+[title *= "tuhoc.cc"] {
+    color: red;
+}
+
+/* [title |= "pic"] {
+    color: pink;
+} */
+
+[title ^= "pic"] {
+    color: pink;
+}
+
+[title $= "c"] {
+    color: wheat;
+}

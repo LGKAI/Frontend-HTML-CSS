@@ -1,0 +1,14 @@
+body{
+    background-image: url(./img/messi.jpg);
+}
+
+h2{
+    /* opacity: 0.5; */
+    /* display: none; */
+    visibility: hidden;
+    background-color: blue;
+}
+
+span{
+    visibility: visible; /* kế thừa */
+}

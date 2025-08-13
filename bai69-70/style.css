@@ -1,0 +1,25 @@
+/* body{
+    background-color: aqua;
+}
+
+.box{
+    color: yellow;
+    width: 250px;
+    height: 250px;
+    background-color: transparent;
+    background-color: currentColor;
+    background-color: rebeccapurple;
+    margin: 45px;
+    padding: 20px;
+    border: 20px dotted red;
+} */
+
+.box{
+    height: 100vh;
+    background-image: url(./bg/leaf.png), url(./bg/bg.jpg);
+    /* background-image: none; */
+    /* background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: repeat; */
+}

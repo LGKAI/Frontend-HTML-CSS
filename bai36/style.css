@@ -1,0 +1,28 @@
+/* p:first-child{
+    color: red;
+    font-size: 30px;
+}
+
+p:last-child{
+    color: blue;
+    font-size: 35px;
+}
+
+p:nth-child(2){
+    color: pink;
+}
+
+p:nth-child(3n+1){
+    color: red;
+    font-size: 30px;
+} */
+
+p:nth-last-child(2){
+    color: red;
+    font-size: 30px;
+}
+
+p:only-child{
+    color: blue;
+    font-size: 35px;
+}

@@ -1,0 +1,65 @@
+/* khai báo :root hoặc html sẽ áp dụng cho toàn trang */
+:root{
+    --box-height: 120px;
+    --box-color: rgb(164, 186, 57);
+}
+
+.box1{
+    height: var(--box-height);
+    background-color: var(--box-color);
+    margin-bottom: 10px;
+}
+
+.box2{
+    height: var(--box-height);
+    background-color: var(--box-color);
+    margin-bottom: 10px;
+}
+
+.box3{
+    height: var(--box-height);
+    background-color: var(--box-color);
+    margin-bottom: 10px;
+}
+
+.box3{
+    height: 200px;
+}
+
+.detail{
+    --p_font-size: 30px;
+    /* font-size: 30px; */
+    /* font-size: var(--p_font-size); */
+}
+
+.detail span{
+    font-size: var(--p_font-size);
+}
+
+/* giá trị backup của biến */
+.content{
+    --background-box: red;
+}
+
+.box4{
+    height: 100px;
+    background-color: var(--background-box, purple); /* backup or fallback */
+}
+
+/* .box1{
+    height: 100px;
+    background-color: #0f0;
+    margin-bottom: 10px;
+}
+
+.box2{
+    height: 100px;
+    background-color: #0f0;
+    margin-bottom: 10px;
+}
+
+.box3{
+    height: 100px;
+    background-color: #0f0;
+    margin-bottom: 10px;
+} */

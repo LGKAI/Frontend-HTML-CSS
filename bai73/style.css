@@ -1,0 +1,27 @@
+.box {
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.box2 {
+  background-image: linear-gradient(to bottom, red, blue);
+}
+
+.box3 {
+  width: 300px;
+  height: 300px;
+  background-image: linear-gradient(to left, red, blue);
+}
+
+.box1 {
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(
+    45deg,
+    rgba(142, 197, 252, 1) 0%,
+    rgba(141, 211, 255, 1) 25%,
+    rgba(161, 216, 255, 1) 50%,
+    rgba(193, 210, 255, 1) 75%,
+    rgba(224, 195, 255, 1) 100%
+  );
+}

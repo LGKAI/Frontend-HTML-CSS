@@ -1,0 +1,51 @@
+.box{
+    /* background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit; */
+    width: 200px;
+    height: 200px;
+    border: 50px dotted rgb(93, 188, 55);
+    padding: 50px;
+
+    /* background-color: cyan;
+    background-image: url(./bg/1.png); */
+
+    /* background-position: top right;
+    background-position: top left;
+    background-position: bottom left;
+    background-position: bottom right;
+    background-position: left;
+    background-position: right;
+    background-position: top;
+    background-position: bottom;
+    background-position: center; */
+
+    /* background-position: 0 100%;
+    background-position: 0 100px; */
+
+    /* background-size: contain;
+    background-size: cover; */
+
+    /* background-repeat: repeat;
+    background-repeat: no-repeat; */
+
+    /* background-origin: padding-box;
+    background-origin: border-box;
+    background-origin: content-box; */
+
+    /* background-clip: border-box;
+    background-clip: padding-box;
+    background-clip: content-box; */
+
+    /* background-attachment: scroll;
+    background-attachment: fixed;
+    background-attachment: local; */
+
+    /* background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit; */
+    background: red;
+    background: red url(./bg/1.png);
+    background: red url(./bg/1.png) left;
+    background: red url(./bg/1.png) left / contain;
+    background: red url(./bg/1.png) left / cover no-repeat;
+    background: red url(./bg/1.png) left / cover no-repeat padding-box;
+    background: red url(./bg/1.png) left / cover repeat padding-box border-box;
+    background: red url(./bg/1.png) left / cover repeat padding-box border-box fixed;
+}
